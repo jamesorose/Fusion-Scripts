@@ -1,6 +1,23 @@
 #!/bin/bash
 #openvpngenconf.sh
 
+#------------------------------------------------------------------------------
+#
+# "THE WAF LICENSE" (version 1)
+# This is the Wife Acceptance Factor (WAF) License.
+# jamesdotfsatstubbornrosesd0tcom  wrote this file.  As long as you retain this
+# notice you can do whatever you want with it. If you appreciate the work,
+# please consider purchasing something from my wife's wishlist. That pays
+# bigger dividends to this coder than anything else I can think of ;).  It also
+# keeps her happy while she's being ignored; so I can work on this stuff.
+#   James Rose
+#
+# latest wishlist: http://www.stubbornroses.com/waf.html
+#
+# Credit: Based off of the BEER-WARE LICENSE (REVISION 42) by Poul-Henning Kamp
+#
+#------------------------------------------------------------------------------
+
 BuildDir="/var/centralconfig/openvpn"
 TmpDir="/tmp/buildvpn/$3"
 DateStamp="$(date +%Y%m%d_%H%M%S_%s)"
